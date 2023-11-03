@@ -1,0 +1,41 @@
+#header{
+    background-color: rgb(255, 191, 202);
+    text-align: center;
+    /*padding penulisan tungga*/
+    padding: 5px;
+    /*padding penulisan urutan,atas,kanan,bawah,kiri*/
+    /*padding:5px 5px 100px 5px*/
+}
+#header h1{
+    color: black;
+}
+#header blockquote{
+    background-color: rgba(243, 203, 231, 0.705);
+    border: 2px dotted;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.menu a{
+    text-decoration: none;
+}
+.gambar{
+    text-align: center;
+}
+.gambar img{
+    width: 150px;
+}
+/*pseudo selector*/
+.fp::first-letter{
+    color: rgb(56, 71, 104);
+    font-size: 40px;
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 140px;
+}
